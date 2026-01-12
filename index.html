@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Produsele mele</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .product {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .product img {
+            width: 100%;
+            max-width: 300px;
+            display: block;
+            margin: auto;
+        }
+        .price {
+            color: green;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .telegram {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 20px;
+            background: #0088cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .telegram:hover {
+            background: #006699;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Produsele mele</h1>
+    <p style="text-align:center;">Contact rapid pe Telegram</p>
+
+    <div class="product">
+        <h2>Nume produs</h2>
+        <img src="https://via.placeholder.com/300x200?text=Produs" alt="Produs">
+        <p>Descriere scurtă a produsului.</p>
+        <p class="price">Preț: 200 RON</p>
+
+        <a class="telegram" href="https://t.me/anonimpuff" target="_blank">
+            Contactează pe Telegram
+        </a>
+    </div>
+</div>
+
+</body>
+</html>
